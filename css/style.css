@@ -1,0 +1,197 @@
+:root {
+  --main-bg-color: #0864a3;
+}
+
+header nav {
+  background-color: var(--main-bg-color);
+}
+
+/* first navbar */
+.navbar1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 7vh;
+}
+
+.left-nav img {
+  height: 24px;
+  width: 134px;
+  margin-left: 2px;
+}
+
+.right-nav {
+  margin-left: 2px;
+  color: white;
+}
+
+/* second navbar */
+
+.navbar2 {
+  display: flex;
+  height: 14vh;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.search {
+  position: relative;
+}
+
+.search input {
+  height: 32px;
+  width: 17vw;
+  padding: 0px 6px;
+}
+
+.search i {
+  background-color: rgb(249 192 29 / 93%);
+  padding: 6px;
+  position: absolute;
+  right: 1px;
+  bottom: 1px;
+  border: 1px solid black;
+}
+
+/* Third navbar */
+.navbar3 {
+  background-color: rgb(249 192 29 / 93%);
+  height: 5vh;
+}
+
+.navbar3 ul {
+  display: flex;
+  align-items: center;
+}
+
+.navbar3 ul li {
+  list-style: none;
+  padding: 11px 44px;
+}
+
+.navbar3 ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+.navbar3 ul li:hover {
+  background-color: rgb(43, 11, 75);
+  color: white;
+}
+
+.navbar3 ul li a:hover {
+  color: white;
+}
+
+/* slider part */
+.main-slider {
+  background-color: #0864a3;
+  height: 60vh;
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.slider img {
+  width: 75vw;
+  height: 50vh;
+  align-items: center;
+  border: 17px solid white;
+  box-sizing: border-box;
+}
+
+/* main part */
+.heading {
+  display: flex;
+  position: relative;
+
+}
+
+.left-heading {
+  background-color: #1788d8;
+  color: white;
+  width: 18%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.right-heading {
+  width: 82%;
+  font-size: 21px;
+  height: 37px;
+  color: #1788d8;
+  box-sizing: border-box;
+
+}
+
+.dashed-line {
+  border-bottom: 1px dashed red;
+}
+
+/* All Products */
+.all-products {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.first-product {
+  margin-top: 20px;
+  border: 1px solid #bdbdbd;
+  width: 253px;
+  height: 275px;
+  text-align: center;
+  justify-content: center;
+  margin-right: 3px;
+  margin-left: 11px;
+}
+
+
+.p-image {
+  text-align: center;
+}
+
+.p-image img {
+  width: 147px;
+  height: 137px;
+
+
+}
+
+.price {
+  position: relative;
+  margin-left: 203px;
+  margin-top: 18px;
+  margin-bottom: 11px;
+  padding: 5px 0px;
+  background-color: #DEDEDE;
+}
+
+.first-product p {
+  margin-top: 8px;
+}
+
+button {
+  margin-top: 26px;
+  padding: 5px 18px;
+  border: none;
+}
+
+.detail {
+  background-color: #08c;
+}
+
+.placeorder {
+  background-color: rgb(249 192 29 / 93%);
+  ;
+}
+
+
+
+/* footer Portion */
+footer {
+  background-color: black;
+  height: 7vh;
+  color: white;
+  margin-top: 10px;
+}
